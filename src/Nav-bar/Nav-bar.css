@@ -1,0 +1,28 @@
+.nav-bar{
+    width: 85%;
+    height: 50px;
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 36px;
+    font-weight: 700;
+    color: #9A5EFB
+}
+.nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav li{
+    list-style: none;
+}
+.nav li .active{
+    color: grey
+}
+.nav .Link{
+    text-decoration: none;
+    color: #9A5EFB
+}

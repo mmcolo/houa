@@ -1,0 +1,22 @@
+.dote-box{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+}
+.dote{
+    width: 30px;
+    height: 30px;
+    background-color: #9A5EFB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dote-link{
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+}
+.dote .active{ background-color: white;}
